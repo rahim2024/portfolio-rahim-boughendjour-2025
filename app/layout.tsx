@@ -35,11 +35,15 @@ export const metadata: Metadata = {
 	authors: [{ name: 'BOUGHENDJOUR RAHIM' }],
 	creator: 'BOUGHENDJOUR RAHIM',
 	icons: {
-		icon: '/favicon.png',
-		apple: '/favicon.png',
+		icon: [
+			{ url: '/favicon.png', type: 'image/png' }
+		],
+		apple: [
+			{ url: '/favicon.png', type: 'image/png' }
+		],
 	},
 	openGraph: {
-		title: 'BOUGHENDJOUR RAHIM - Portfolio Développeur Full Stack',
+		title: 'BOUGHENDJOUR RAHIM',
 		description: 'Bienvenue sur mon portfolio !',
 		url: 'https://votre-domaine.com',
 		siteName: 'BOUGHENDJOUR RAHIM - Portfolio',
@@ -74,6 +78,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="fr">
+			<head>
+				<link rel="icon" type="image/png" href="/favicon.png" />
+				<link rel="apple-touch-icon" type="image/png" href="/favicon.png" />
+			</head>
 			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
 		</html>
 	);

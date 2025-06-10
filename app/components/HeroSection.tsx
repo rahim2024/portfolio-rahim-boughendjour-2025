@@ -27,10 +27,10 @@ export default function HeroSection() {
 							<br />
 							Je suis à la recherche d'une alternance en développement.
 						</p>
-						<div className="flex flex-col sm:flex-row gap-4 justify-center">
+						<div className="flex flex-wrap gap-4 justify-center md:justify-start">
 							<a
 								href="#projects"
-								className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors text-center"
+								className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
 							>
 								Voir mes projets
 							</a>
@@ -40,7 +40,7 @@ export default function HeroSection() {
 									e.preventDefault();
 									document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
 								}}
-								className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center"
+								className="px-6 py-3 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition-colors"
 							>
 								Me contacter
 							</a>
@@ -48,7 +48,7 @@ export default function HeroSection() {
 								href="/cv.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 transition-colors text-center"
+								className="px-6 py-3 bg-blue-100 text-blue-800 rounded-full hover:bg-blue-200 transition-colors"
 							>
 								Voir mon CV
 							</a>
