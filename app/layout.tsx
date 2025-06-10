@@ -34,9 +34,13 @@ export const metadata: Metadata = {
 	],
 	authors: [{ name: 'BOUGHENDJOUR RAHIM' }],
 	creator: 'BOUGHENDJOUR RAHIM',
+	icons: {
+		icon: '/favicon.png',
+		apple: '/favicon.png',
+	},
 	openGraph: {
 		title: 'BOUGHENDJOUR RAHIM - Portfolio Développeur Full Stack',
-		description: 'Développeur passionné créant des solutions numériques propres, minimales et efficaces. Explorez mon travail et ma philosophie de développement.',
+		description: 'Bienvenue sur mon portfolio !',
 		url: 'https://votre-domaine.com',
 		siteName: 'BOUGHENDJOUR RAHIM - Portfolio',
 		images: [
@@ -49,13 +53,6 @@ export const metadata: Metadata = {
 		],
 		locale: 'fr_FR',
 		type: 'website',
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'BOUGHENDJOUR RAHIM - Développeur Full Stack',
-		description: 'Développeur passionné créant des solutions numériques propres, minimales et efficaces. Explorez mon travail et ma philosophie de développement.',
-		creator: '@votre_utilisateur',
-		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
