@@ -33,11 +33,10 @@ export default function TrobaparkProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Description</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							TrobàPark, c'est un concept d'application mobile qui permet à un automobiliste de réserver à distance 
-							une place de parking. Une fois à moins de 5 kilomètres de la place, la réservation se déclenche 
-							automatiquement, et une borne physique sur site affiche que la place est occupée. La détection de 
-							présence se fait via un capteur de mouvement. Et dès que l'automobiliste repart, la réservation 
-							s'annule sans action manuelle.
+							Dans le cadre de mon projet personnel, j&apos;ai développé TrobàPark, une application web 
+							innovante qui simplifie la recherche de places de stationnement. L&apos;objectif était de 
+							créer une solution qui permettrait aux utilisateurs de trouver rapidement une place de 
+							stationnement disponible, tout en offrant une expérience utilisateur fluide et intuitive.
 						</p>
 						<div className="relative w-full aspect-[16/9] mb-6 rounded-lg overflow-hidden">
 							<Image
@@ -47,6 +46,11 @@ export default function TrobaparkProject() {
 								className="object-contain bg-gray-100"
 							/>
 						</div>
+						<p className="text-gray-600 leading-relaxed">
+							L&apos;application comprend plusieurs fonctionnalités clés : une carte interactive pour 
+							localiser les parkings, un système de filtrage par disponibilité et tarifs, et une 
+							interface utilisateur responsive adaptée à tous les appareils.
+						</p>
 						<p className="text-gray-600 leading-relaxed">
 							Le projet intègre des idées de partenariats avec des mairies ou des gestionnaires privés de parkings 
 							pour un déploiement réel. Ce concept innovant a été présenté lors des Olympiades de Sciences de 
@@ -69,11 +73,12 @@ export default function TrobaparkProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Compétences mobilisées</h2>
 						</div>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
-							<li>Programmation (micro:bit)</li>
-							<li>Modélisation 3D</li>
-							<li>Électronique (capteur à ultrasons, montage, communication)</li>
-							<li>Design graphique (affiches de communication, visuels de l'application)</li>
-							<li>Base de données (schéma relationnel, structuration des utilisateurs)</li>
+							<li>Développement front-end avec Next.js et TypeScript</li>
+							<li>Intégration de cartes interactives avec Mapbox</li>
+							<li>Design responsive et UI/UX moderne</li>
+							<li>Gestion d&apos;état avec React Context</li>
+							<li>Optimisation des performances</li>
+							<li>Tests et débogage</li>
 						</ul>
 					</motion.section>
 
@@ -161,7 +166,10 @@ export default function TrobaparkProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Techniques et Savoir-faire Acquis</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Ce projet m'a permis d'acquérir et de perfectionner plusieurs compétences essentielles :
+							Ce projet m&apos;a permis de développer mes compétences en développement web moderne et 
+							de créer une application qui répond à un besoin réel. J&apos;ai appris à gérer la 
+							complexité d&apos;une application full-stack tout en maintenant une expérience 
+							utilisateur de qualité.
 						</p>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<div className="bg-gray-50 p-6 rounded-lg">
