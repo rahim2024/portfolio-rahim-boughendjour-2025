@@ -26,19 +26,16 @@ export default function AboutSection() {
 					>
 						<h3 className="text-xl font-semibold mb-4 text-blue-600">Qui suis-je ?</h3>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Je suis actuellement en 2ème année de BUT Informatique à l&apos;IUT de Nîmes, 
+							Je suis actuellement en 2ème année de BUT Informatique à l&apos;IUT 2 de Grenoble, 
 							spécialisé dans la réalisation d&apos;applications : conception, développement, validation. 
-							Mon parcours est marqué par une passion pour le développement web et mobile, 
-							que j&apos;ai pu mettre en pratique lors de mes stages et projets personnels.
+							Je suis actuellement en stage chez EEE Omexom à Nîmes en tant que stagiaire développeur.
 						</p>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Mon objectif est de devenir développeur full-stack, en combinant mes compétences 
-							en développement front-end et back-end. Je m&apos;intéresse particulièrement aux 
-							technologies modernes comme React, Next.js, et Node.js.
+							Mon objectif est de devenir ingénieur en informatique et de pouvoir exercer dans le domaine du développement d'applications et de l'intelligence artificielle.
 						</p>
 						<p className="text-gray-600 leading-relaxed">
-							En dehors du code, je m&apos;intéresse à la photographie et au design, ce qui 
-							m&apos;aide à développer mon sens de l&apos;esthétique et de l&apos;expérience utilisateur.
+							En dehors du code, je m&apos;intéresse aux jeux vidéos et à la psychologie sociale, ce qui 
+							m&apos;aide à développer ma logique et mes compétences sociales.
 						</p>
 					</motion.div>
 
@@ -60,7 +57,7 @@ export default function AboutSection() {
 								<div>
 									<h3 className="font-semibold text-gray-800">Stage Développeur</h3>
 									<p className="text-gray-600">EEE Omexom Nîmes - En cours</p>
-									<p className="text-gray-600">Développement d&apos;applications et solutions techniques</p>
+									<p className="text-gray-600">Développement d&apos;applicatif VBA</p>
 								</div>
 							</div>
 							<div className="flex items-start gap-4">
@@ -71,7 +68,7 @@ export default function AboutSection() {
 								</div>
 								<div>
 									<h3 className="font-semibold text-gray-800">BUT Informatique</h3>
-									<p className="text-gray-600">IUT de Nîmes - 2022-2025</p>
+									<p className="text-gray-600">IUT2 de Grenoble - 2023-2026</p>
 									<p className="text-gray-600">Spécialisation en développement d&apos;applications</p>
 								</div>
 							</div>
@@ -83,8 +80,8 @@ export default function AboutSection() {
 								</div>
 								<div>
 									<h3 className="font-semibold text-gray-800">Baccalauréat Général</h3>
-									<p className="text-gray-600">Lycée Jean Vilar - 2022</p>
-									<p className="text-gray-600">Spécialités Mathématiques et NSI</p>
+									<p className="text-gray-600">Lycée Jean Baptiste Dumas à Alès - 2023</p>
+									<p className="text-gray-600">Spécialités Mathématiques et Sciences de l'Ingénieur</p>
 								</div>
 							</div>
 						</div>

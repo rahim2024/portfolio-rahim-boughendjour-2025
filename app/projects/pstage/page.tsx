@@ -38,14 +38,10 @@ export default function PstageProject() {
 					<div className="bg-white rounded-lg shadow-lg p-8 mb-8">
 						<h2 className="text-2xl font-bold text-gray-800 mb-4">Description</h2>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Pstage est une application web développée dans le cadre de mon stage chez EEE Omexom. 
-							L&apos;objectif était de créer une plateforme de gestion des stages pour les étudiants 
-							et les entreprises.
+							Pstage est une application web de gestion des stages pour les étudiants de l&apos;IUT. Elle permet aux étudiants de suivre leur stage, aux tuteurs de valider les étapes, et aux administrateurs de gérer l&apos;ensemble du processus.
 						</p>
 						<p className="text-gray-600 leading-relaxed">
-							L&apos;application comprend plusieurs fonctionnalités clés : une interface de gestion 
-							des stages, un système de suivi des candidatures, et une plateforme de communication 
-							entre les étudiants et les entreprises.
+							L&apos;objectif principal était de moderniser l&apos;application existante en utilisant les dernières technologies web et en améliorant l&apos;expérience utilisateur. Le projet visait à :
 						</p>
 					</div>
 
@@ -89,7 +85,7 @@ export default function PstageProject() {
 					<div className="bg-white rounded-lg shadow-lg p-8 mb-8">
 						<h2 className="text-2xl font-bold text-gray-800 mb-4">Travail en groupe</h2>
 						<p className="text-gray-600 mb-4">
-							Projet mené à 4 personnes au lieu des 6 initialement prévues.
+							J&apos;ai travaillé en équipe avec d&apos;autres développeurs pour mener à bien ce projet. Notre équipe était composée de :
 						</p>
 						<h3 className="text-xl font-semibold text-gray-800 mb-2">Répartition en 2 sous-équipes :</h3>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
@@ -104,6 +100,9 @@ export default function PstageProject() {
 					{/* Contribution personnelle */}
 					<div className="bg-white rounded-lg shadow-lg p-8 mb-8">
 						<h2 className="text-2xl font-bold text-gray-800 mb-4">Ma contribution personnelle</h2>
+						<p className="text-gray-600 mb-6">
+							En tant que développeur front-end, j&apos;ai été responsable de :
+						</p>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>Participation au refactoring complet du back-end Symfony (création de services, sécurisation des routes, meilleure séparation des rôles)</li>
 							<li>Mise en place des tests avec PHPUnit et Cypress</li>
@@ -112,6 +111,9 @@ export default function PstageProject() {
 							<li>Gestion des routes sécurisées, amélioration CSRF & XSS</li>
 							<li>Contribution à la doc et à la relecture du rapport</li>
 						</ul>
+						<p className="text-gray-600 mb-6">
+							J&apos;ai également participé à la conception de l&apos;architecture technique et à la mise en place des bonnes pratiques de développement.
+						</p>
 					</div>
 
 					{/* Stack et outils */}
@@ -140,6 +142,9 @@ export default function PstageProject() {
 					{/* Apprentissages */}
 					<div className="bg-white rounded-lg shadow-lg p-8 mb-8">
 						<h2 className="text-2xl font-bold text-gray-800 mb-4">Ce que j'ai appris</h2>
+						<p className="text-gray-600 mb-6">
+							Ce projet m&apos;a permis d&apos;acquérir de nombreuses compétences techniques et professionnelles :
+						</p>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>À refactorer un projet existant avec plein de contraintes déjà en place</li>
 							<li>À bien séparer les responsabilités (service, contrôleur, UI)</li>

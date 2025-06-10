@@ -33,10 +33,7 @@ export default function TrobaparkProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Description</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Dans le cadre de mon projet personnel, j&apos;ai développé TrobàPark, une application web 
-							innovante qui simplifie la recherche de places de stationnement. L&apos;objectif était de 
-							créer une solution qui permettrait aux utilisateurs de trouver rapidement une place de 
-							stationnement disponible, tout en offrant une expérience utilisateur fluide et intuitive.
+							TrobàPark est une application mobile qui permet aux utilisateurs de trouver et réserver des places de parking en temps réel. L&apos;application utilise la géolocalisation pour identifier les parkings à proximité et propose un système de réservation instantanée.
 						</p>
 						<div className="relative w-full aspect-[16/9] mb-6 rounded-lg overflow-hidden">
 							<Image
@@ -95,6 +92,9 @@ export default function TrobaparkProject() {
 							</svg>
 							<h2 className="text-2xl font-bold text-gray-800">Objectifs</h2>
 						</div>
+						<p className="text-gray-600 mb-6">
+							L&apos;objectif principal était de créer une solution innovante pour résoudre les problèmes de stationnement en ville. Le projet visait à :
+						</p>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>Faciliter la recherche et la réservation de places de parking en ville</li>
 							<li>Automatiser l&apos;expérience de stationnement</li>
@@ -116,8 +116,8 @@ export default function TrobaparkProject() {
 							</svg>
 							<h2 className="text-2xl font-bold text-gray-800">Travail en Groupe</h2>
 						</div>
-						<p className="text-gray-600 leading-relaxed mb-4">
-							Projet mené à 4 avec une répartition claire :
+						<p className="text-gray-600 mb-6">
+							J&apos;ai travaillé en équipe avec d&apos;autres développeurs pour mener à bien ce projet. Notre équipe était composée de :
 						</p>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>Conception électronique et prototypage : partagé entre nous tous</li>
@@ -141,8 +141,8 @@ export default function TrobaparkProject() {
 							</svg>
 							<h2 className="text-2xl font-bold text-gray-800">Travail Individuel</h2>
 						</div>
-						<p className="text-gray-600 leading-relaxed mb-4">
-							Dans ce projet, j&apos;ai été responsable de :
+						<p className="text-gray-600 mb-6">
+							En tant que développeur front-end, j&apos;ai été responsable de :
 						</p>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>Programmation de la logique de détection de présence</li>
@@ -165,11 +165,8 @@ export default function TrobaparkProject() {
 							</svg>
 							<h2 className="text-2xl font-bold text-gray-800">Techniques et Savoir-faire Acquis</h2>
 						</div>
-						<p className="text-gray-600 leading-relaxed mb-6">
-							Ce projet m&apos;a permis de développer mes compétences en développement web moderne et 
-							de créer une application qui répond à un besoin réel. J&apos;ai appris à gérer la 
-							complexité d&apos;une application full-stack tout en maintenant une expérience 
-							utilisateur de qualité.
+						<p className="text-gray-600 mb-6">
+							J&apos;ai également participé à la conception de l&apos;architecture technique et à la mise en place des bonnes pratiques de développement.
 						</p>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<div className="bg-gray-50 p-6 rounded-lg">
