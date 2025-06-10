@@ -25,12 +25,12 @@ export default function PstageProject() {
 					</div>
 
 					{/* Image principale */}
-					<div className="relative aspect-video mb-12 rounded-lg overflow-hidden shadow-xl">
+					<div className="relative w-full aspect-[16/9] mb-6 rounded-lg overflow-hidden">
 						<Image
 							src="/pstage.png"
-							alt="Interface de l'application Pstage"
+							alt="Pstage"
 							fill
-							className="object-contain bg-white"
+							className="object-contain bg-gray-100"
 						/>
 					</div>
 
@@ -41,6 +41,11 @@ export default function PstageProject() {
 							Pstage est une application web développée dans le cadre de mon stage chez EEE Omexom. 
 							L&apos;objectif était de créer une plateforme de gestion des stages pour les étudiants 
 							et les entreprises.
+						</p>
+						<p className="text-gray-600 leading-relaxed">
+							L&apos;application comprend plusieurs fonctionnalités clés : une interface de gestion 
+							des stages, un système de suivi des candidatures, et une plateforme de communication 
+							entre les étudiants et les entreprises.
 						</p>
 					</div>
 

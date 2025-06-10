@@ -54,7 +54,7 @@ export default function TrobaparkProject() {
 						<p className="text-gray-600 leading-relaxed">
 							Le projet intègre des idées de partenariats avec des mairies ou des gestionnaires privés de parkings 
 							pour un déploiement réel. Ce concept innovant a été présenté lors des Olympiades de Sciences de 
-							l'Ingénieur, où nous avons remporté la finale régionale à Montpellier et participé à la finale 
+							l&apos;Ingénieur, où nous avons remporté la finale régionale à Montpellier et participé à la finale 
 							nationale à Grenoble.
 						</p>
 					</motion.section>
@@ -97,7 +97,7 @@ export default function TrobaparkProject() {
 						</div>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>Faciliter la recherche et la réservation de places de parking en ville</li>
-							<li>Automatiser l'expérience de stationnement</li>
+							<li>Automatiser l&apos;expérience de stationnement</li>
 							<li>Réduire le stress et le temps perdu à chercher une place</li>
 							<li>Montrer comment des solutions techniques (capteurs, app mobile, BDD) peuvent répondre à des problématiques concrètes</li>
 						</ul>
@@ -142,13 +142,13 @@ export default function TrobaparkProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Travail Individuel</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-4">
-							Dans ce projet, j'ai été responsable de :
+							Dans ce projet, j&apos;ai été responsable de :
 						</p>
 						<ul className="list-disc list-inside text-gray-600 space-y-2">
 							<li>Programmation de la logique de détection de présence</li>
 							<li>Modélisation de la gestion des données clients (base de données)</li>
-							<li>Création d'une affiche de communication</li>
-							<li>Participation active à la réflexion sur l'expérience utilisateur</li>
+							<li>Création d&apos;une affiche de communication</li>
+							<li>Participation active à la réflexion sur l&apos;expérience utilisateur</li>
 						</ul>
 					</motion.section>
 
@@ -175,19 +175,19 @@ export default function TrobaparkProject() {
 							<div className="bg-gray-50 p-6 rounded-lg">
 								<h3 className="font-semibold text-gray-800 mb-3">Prototypage et Électronique</h3>
 								<p className="text-gray-600">
-									Prototypage rapide d'un système embarqué et utilisation de capteurs à ultrasons avec micro:bit.
+									Prototypage rapide d&apos;un système embarqué et utilisation de capteurs à ultrasons avec micro:bit.
 								</p>
 							</div>
 							<div className="bg-gray-50 p-6 rounded-lg">
 								<h3 className="font-semibold text-gray-800 mb-3">Base de Données</h3>
 								<p className="text-gray-600">
-									Structuration et modélisation d'une base de données relationnelle pour la gestion des utilisateurs.
+									Structuration et modélisation d&apos;une base de données relationnelle pour la gestion des utilisateurs.
 								</p>
 							</div>
 							<div className="bg-gray-50 p-6 rounded-lg">
 								<h3 className="font-semibold text-gray-800 mb-3">Travail en Équipe</h3>
 								<p className="text-gray-600">
-									Expérience en travail collaboratif interdisciplinaire et communication de projet à l'oral.
+									Expérience en travail collaboratif interdisciplinaire et communication de projet à l&apos;oral.
 								</p>
 							</div>
 							<div className="bg-gray-50 p-6 rounded-lg">
@@ -199,7 +199,7 @@ export default function TrobaparkProject() {
 						</div>
 					</motion.section>
 
-					{/* Galerie d'images */}
+					{/* Galerie d&apos;images */}
 					<motion.section
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
@@ -246,7 +246,7 @@ export default function TrobaparkProject() {
 							<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
 							</svg>
-							Retour à l'accueil
+							Retour à l&apos;accueil
 						</Link>
 					</motion.div>
 				</div>
