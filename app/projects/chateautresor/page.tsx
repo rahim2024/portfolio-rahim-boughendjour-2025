@@ -33,12 +33,9 @@ export default function ChateauTresorProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Description</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							ChateauTrésor est une application web innovante qui transforme la visite des châteaux en une expérience 
-							ludique et interactive. Elle permet d'organiser et de participer à des chasses au trésor dans des châteaux 
-							réels, avec un système de points, d'énigmes, d'indices et de récompenses. L'application s'adresse à trois 
-							types d'utilisateurs : les propriétaires de châteaux qui souhaitent valoriser leur patrimoine, les visiteurs 
-							qui participent aux chasses au trésor, et les équipes créatives qui conçoivent et organisent ces expériences 
-							immersives.
+							ChâteauTrésor est un projet de jeu vidéo éducatif développé dans le cadre de mes études. 
+							L&apos;objectif était de créer une expérience ludique permettant aux joueurs d&apos;explorer 
+							un château médiéval tout en apprenant l&apos;histoire et l&apos;architecture de l&apos;époque.
 						</p>
 						<div className="relative w-full aspect-[16/9] mb-6 rounded-lg overflow-hidden">
 							<Image
@@ -156,7 +153,9 @@ export default function ChateauTresorProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Techniques et Savoir-faire Acquis</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Ce projet m'a permis d'acquérir et de perfectionner plusieurs compétences essentielles :
+							Ce projet m&apos;a permis de développer mes compétences en développement de jeux vidéo 
+							et de créer une expérience éducative engageante. J&apos;ai appris à gérer la complexité 
+							d&apos;un projet de jeu tout en maintenant une expérience utilisateur de qualité.
 						</p>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<div className="bg-gray-50 p-6 rounded-lg">
@@ -187,6 +186,10 @@ export default function ChateauTresorProject() {
 								</p>
 							</div>
 						</div>
+						<p className="text-gray-600 leading-relaxed">
+							En dehors du développement, j&apos;ai également contribué à la conception des niveaux 
+							et à l&apos;équilibrage du gameplay pour assurer une expérience éducative efficace.
+						</p>
 					</motion.section>
 
 					{/* Lien vers le projet */}

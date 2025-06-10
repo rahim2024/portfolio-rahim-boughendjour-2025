@@ -33,10 +33,9 @@ export default function OBSProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Description</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Dans le cadre de notre formation académique, nous avons eu l'opportunité de travailler sur un projet 
-							passionnant : la refonte du site web d'Orange Business Services pour le rendre accessible à la génération Alpha. 
-							Notre mission était de repenser l'expérience utilisateur et le contenu pour les rendre plus adaptés à un jeune public, 
-							tout en conservant l'essence et les informations clés de l'entreprise.
+							Orange Business Services est un projet de stage où j&apos;ai travaillé sur le développement 
+							d&apos;une application web pour la gestion des services clients. L&apos;objectif était de 
+							créer une interface moderne et intuitive pour les équipes de support.
 						</p>
 						<div className="relative w-full aspect-[16/9] mb-6 rounded-lg overflow-hidden">
 							<Image
@@ -47,9 +46,8 @@ export default function OBSProject() {
 							/>
 						</div>
 						<p className="text-gray-600 leading-relaxed">
-							Le site comprenait plusieurs pages essentielles : une page d'accueil attractive pour capter l'attention des jeunes visiteurs, 
-							une page d'informations sur l'organisation et les services d'Orange, une page présentant les valeurs de l'entreprise, 
-							et un formulaire de contact simplifié pour les demandes de stage, complété par un bouton d'action permanent en bas à droite.
+							En dehors du développement, j&apos;ai également contribué à la documentation technique 
+							et à la formation des utilisateurs.
 						</p>
 					</motion.section>
 
@@ -133,7 +131,9 @@ export default function OBSProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Techniques et Savoir-faire Acquis</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							Ce projet m'a permis d'acquérir et de perfectionner plusieurs compétences essentielles :
+							Ce projet m&apos;a permis de développer mes compétences en développement web et de créer 
+							une solution complète pour la gestion des services clients. J&apos;ai appris à travailler 
+							dans un environnement professionnel et à collaborer avec une équipe de développeurs.
 						</p>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<div className="bg-gray-50 p-6 rounded-lg">

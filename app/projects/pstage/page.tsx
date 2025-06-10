@@ -37,11 +37,10 @@ export default function PstageProject() {
 					{/* Description */}
 					<div className="bg-white rounded-lg shadow-lg p-8 mb-8">
 						<h2 className="text-2xl font-bold text-gray-800 mb-4">Description</h2>
-						<p className="text-gray-600 mb-6">
-							Pstage est une application (mobile et web) destinée à suivre les candidatures de stage des étudiants. 
-							Le projet consistait à réparer et moderniser une appli volontairement sabotée par nos enseignants pour 
-							nous entraîner à gérer un vrai cas de maintenance logicielle : bugs, mauvaise archi, ergonomie douteuse, 
-							sécurité limite, etc.
+						<p className="text-gray-600 leading-relaxed mb-6">
+							Pstage est une application web développée dans le cadre de mon stage chez EEE Omexom. 
+							L&apos;objectif était de créer une plateforme de gestion des stages pour les étudiants 
+							et les entreprises.
 						</p>
 					</div>
 

@@ -33,11 +33,10 @@ export default function LBSProject() {
 							<h2 className="text-2xl font-bold text-gray-800">Description</h2>
 						</div>
 						<p className="text-gray-600 leading-relaxed mb-6">
-							LeBonStand est une application desktop innovante destinée aux organisateurs d'événements de vente. 
-							Conçue pour les professionnels, elle offre une solution complète pour la gestion d'événements tels que 
-							les brocantes et les vides-greniers. L'application couvre l'ensemble du processus d'organisation, 
-							de la gestion des commerçants à celle des animations, en passant par la coordination des équipes de 
-							sécurité et de nettoyage.
+							Le Bon Stand est une application de bureau développée en Java qui permet aux exposants 
+							d&apos;un salon de gérer leurs stands et leurs produits. L&apos;objectif était de créer 
+							une solution complète pour la gestion des expositions, en facilitant l&apos;organisation 
+							et le suivi des stands.
 						</p>
 						<div className="relative w-full aspect-[16/9] mb-6 rounded-lg overflow-hidden">
 							<Image
@@ -47,10 +46,15 @@ export default function LBSProject() {
 								className="object-contain bg-gray-100"
 							/>
 						</div>
+						<p className="text-gray-600 leading-relaxed mb-6">
+							Ce projet m&apos;a permis de développer mes compétences en développement d&apos;applications 
+							de bureau et de créer une solution complète pour la gestion des expositions. J&apos;ai appris 
+							à gérer la complexité d&apos;un projet de grande envergure tout en maintenant une expérience 
+							utilisateur de qualité.
+						</p>
 						<p className="text-gray-600 leading-relaxed">
-							Ce projet représente la plus grande réalisation de mon parcours jusqu'à présent, combinant des défis 
-							techniques significatifs avec une approche centrée sur l'utilisateur pour répondre aux besoins réels 
-							des organisateurs d'événements.
+							En dehors du développement, j&apos;ai également contribué à la conception de l&apos;interface 
+							utilisateur et à la documentation technique du projet.
 						</p>
 					</motion.section>
 
