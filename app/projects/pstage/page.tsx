@@ -1,15 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Metadata } from 'next';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
 import Link from 'next/link';
-
-export const metadata: Metadata = {
-	title: 'Pstage - Amélioration d\'une application existante',
-	description: 'Projet de modernisation d\'une application de gestion des stages à l\'IUT',
-};
 
 export default function PstagePage() {
 	return (
@@ -131,8 +123,8 @@ export default function PstagePage() {
 
 			<div className="text-center">
 				<Link
-					href="/#projects"
-					className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200"
+					href="/projects"
+					className="inline-block bg-gray-100 text-gray-800 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors"
 				>
 					Retour aux projets
 				</Link>
